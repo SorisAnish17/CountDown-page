@@ -44,6 +44,6 @@ body {
     width: 125px;
     position: absolute;
     right: 45%;
-    animation: rocket 6s linear infinite;
+    animation: rocket 2s linear infinite;
   }
 }
