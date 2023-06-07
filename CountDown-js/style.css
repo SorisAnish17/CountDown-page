@@ -35,7 +35,7 @@ body {
 }
 @media screen and (max-width: 500px) {
   .timer {
-    width: 100px;
+    width: 150px;
     position: absolute;
     left: 10px;
     top: 175px;
