@@ -41,9 +41,6 @@ body {
     top: 175px;
   }
   #rocket {
-    width: 125px;
-    position: absolute;
-    right: 45%;
-    animation: rocket 2s linear infinite;
+   display:none;
   }
 }
