@@ -1,0 +1,49 @@
+body {
+  background-image: url("pexels-jeremy-bishop-2923595.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+.timer {
+  width: 150px;
+  position: absolute;
+  left: 85px;
+  top: 175px;
+}
+#btn {
+  position: absolute;
+  top: 325px;
+  left: 130px;
+}
+#rocket {
+  width: 125px;
+  position: absolute;
+  right: 30%;
+  animation: rocket 6s linear infinite;
+}
+@keyframes rocket {
+  0% {
+    bottom: 0px;
+    opacity: 0%;
+  }
+  100% {
+    bottom: 105%;
+    opacity: 1;
+  }
+}
+@media screen and (max-width: 500px) {
+  .timer {
+    width: 100px;
+    position: absolute;
+    left: 10px;
+    top: 175px;
+  }
+  #rocket {
+    width: 125px;
+    position: absolute;
+    right: 45%;
+    animation: rocket 6s linear infinite;
+  }
+}
