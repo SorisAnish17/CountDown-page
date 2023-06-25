@@ -1,4 +1,4 @@
-const future = new Date("Jun 23, 2023 00:00:00").getTime();
+const future = new Date("Dec 25, 2023 00:00:00").getTime();
 const x = setInterval(() => {
   const today = new Date().getTime();
   const result = future - today;
